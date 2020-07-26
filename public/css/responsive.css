@@ -1,0 +1,44 @@
+
+@media (max-width:768px) {
+    .content-slide {        
+        font-size: 27px;   
+        line-height: 25px;
+    }
+    .slider-banner .slick-dots li button:before {
+        top: -30px !important;
+    }
+    .title-slide {
+        font-size: 15px;
+    }
+    .slide-intro {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .addon-title {
+        font-family: Raleway-Thin;
+        font-size: 35px;
+    }
+
+}
+@media (min-width:768px) {
+    .border-text {
+        border-width: 11px;
+        border-style: solid;
+        border-color: rgb(244, 244, 245);
+        width: 832px;
+        height: 295px;
+        padding: 72px 185px;
+    }
+    .banner-top {
+        top: -35px;
+        position: relative;
+    }
+    .text-welcome {
+        margin-top: -35px;
+    }
+    #main-menu .slick-dots li button:before {
+        top: -60px !important;
+    }
+}
